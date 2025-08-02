@@ -1,0 +1,27 @@
+{
+  "citation": "@article{dasari2019robonet,\n  title={RoboNet: Large-Scale Multi-Robot Learning},\n  author={Dasari, Sudeep and Ebert, Frederik and Tian, Stephen and\n  Nair, Suraj and Bucher, Bernadette and Schmeckpeper, Karl\n  and Singh, Siddharth and Levine, Sergey and Finn, Chelsea},\n  journal={arXiv preprint arXiv:1910.11215},\n  year={2019}\n}",
+  "configDescription": "64x64 RoboNet Sample.",
+  "configName": "robonet_sample_64",
+  "description": "RoboNet contains over 15 million video frames of robot-object interaction, taken\nfrom 113 unique camera viewpoints.\n\n*   The actions are deltas in position and rotation to the robot end-effector\n    with one additional dimension of the action vector reserved for the gripper\n    joint.\n\n*   The states are cartesian end-effector control action space with restricted\n    rotation, and a gripper joint",
+  "downloadSize": "125618217",
+  "fileFormat": "tfrecord",
+  "location": {
+    "urls": [
+      "https://www.robonet.wiki/"
+    ]
+  },
+  "moduleName": "tensorflow_datasets.datasets.robonet.robonet_dataset_builder",
+  "name": "robonet",
+  "splits": [
+    {
+      "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+      "name": "train",
+      "numBytes": "191934727",
+      "shardLengths": [
+        "348",
+        "352"
+      ]
+    }
+  ],
+  "version": "4.0.1"
+}

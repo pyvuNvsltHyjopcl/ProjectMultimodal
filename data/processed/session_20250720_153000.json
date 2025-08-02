@@ -1,0 +1,26 @@
+{
+    "schema_version": "1.0",
+    "episode_id": "session_20250720_153000",
+    "session_info": {
+        "start_time_utc": "2025-08-02T03:13:45.764Z",
+        "end_time_utc": "2025-08-02T03:13:45.764Z"
+    },
+    "task_context": {
+        "goal": "Testing the ingestion pipeline.",
+        "language_prompt": "Robot, this is a test of the data processing system.",
+        "user_intent": "System diagnostics and validation."
+    },
+    "sensor_data": [
+        {
+            "modality": "video",
+            "source_id": "front_cam_SN12345",
+            "file_path": "D:\\Users\\OLoca\\PycharmProjects\\Project_Multimodal\\data\\processed\\session_20250720_153000\\normalized_sample_video.mp4"
+        },
+        {
+            "modality": "audio",
+            "source_id": "microphone_SN67890",
+            "file_path": "D:\\Users\\OLoca\\PycharmProjects\\Project_Multimodal\\data\\processed\\session_20250720_153000\\normalized_sample_audio.wav"
+        }
+    ],
+    "cross_modality_tags": []
+}

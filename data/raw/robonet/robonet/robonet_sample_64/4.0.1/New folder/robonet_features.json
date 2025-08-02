@@ -1,0 +1,56 @@
+{
+    "featuresDict": {
+        "features": {
+            "actions": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "float32",
+                    "encoding": "none",
+                    "shape": {
+                        "dimensions": [
+                            "-1",
+                            "5"
+                        ]
+                    }
+                }
+            },
+            "filename": {
+                "pythonClassName": "tensorflow_datasets.core.features.text_feature.Text",
+                "text": {}
+            },
+            "states": {
+                "pythonClassName": "tensorflow_datasets.core.features.tensor_feature.Tensor",
+                "tensor": {
+                    "dtype": "float32",
+                    "encoding": "none",
+                    "shape": {
+                        "dimensions": [
+                            "-1",
+                            "5"
+                        ]
+                    }
+                }
+            },
+            "video": {
+                "pythonClassName": "tensorflow_datasets.core.features.video_feature.Video",
+                "video": {
+                    "dtype": "uint8",
+                    "encodingFormat": "png",
+                    "ffmpegExtraArgs": [
+                        "-vf",
+                        "scale=64x64"
+                    ],
+                    "shape": {
+                        "dimensions": [
+                            "-1",
+                            "64",
+                            "64",
+                            "3"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "pythonClassName": "tensorflow_datasets.core.features.features_dict.FeaturesDict"
+}

@@ -1,0 +1,19 @@
+{
+    "schema_version": "1.0",
+    "episode_id": "session_synthetic_test_20250801_215524",
+    "task_context": {
+        "goal": "Test synthetic data processing.",
+        "language_prompt": "Robot, process this valid synthetic data.",
+        "user_intent": "End-to-end pipeline validation with a synthetic source."
+    },
+    "sensor_data": [
+        {
+            "modality": "video",
+            "file_path": "D:\\Users\\OLoca\\PycharmProjects\\Project_Multimodal\\data\\processed\\session_synthetic_test_20250801_215524\\normalized_synthetic_video.mp4"
+        },
+        {
+            "modality": "audio",
+            "file_path": "D:\\Users\\OLoca\\PycharmProjects\\Project_Multimodal\\data\\processed\\session_synthetic_test_20250801_215524\\normalized_synthetic_audio.wav"
+        }
+    ]
+}

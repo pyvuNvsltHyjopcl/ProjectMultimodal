@@ -1,0 +1,5 @@
+{
+    "goal": "Move the food item to the lower left side of the table",
+    "language_prompt": "Move the food item to the lower left side of the table",
+    "user_intent": "Task from BRIDGE Dataset."
+}

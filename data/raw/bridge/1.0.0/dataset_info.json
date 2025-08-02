@@ -1,0 +1,20 @@
+{
+  "fileFormat": "tfrecord",
+  "moduleName": "bridge_orig_ep100",
+  "name": "bridge_orig_ep100",
+  "releaseNotes": {
+    "1.0.0": "Initial release."
+  },
+  "splits": [
+    {
+      "filepathTemplate": "{DATASET}-{SPLIT}.{FILEFORMAT}-{SHARD_X_OF_Y}",
+      "name": "train",
+      "numBytes": "172827845",
+      "shardLengths": [
+        "33",
+        "33"
+      ]
+    }
+  ],
+  "version": "1.0.0"
+}

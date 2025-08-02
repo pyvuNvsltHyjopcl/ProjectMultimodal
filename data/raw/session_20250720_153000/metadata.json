@@ -1,0 +1,5 @@
+{
+  "goal": "Testing the ingestion pipeline.",
+  "language_prompt": "Robot, this is a test of the data processing system.",
+  "user_intent": "System diagnostics and validation."
+}
